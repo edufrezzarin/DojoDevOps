@@ -19,5 +19,3 @@ app.get('/', (req, res) => {
 app.listen(PORT, HOST);
 
 module.exports = app;
-
-console.log(`Running on http://${HOST}:${PORT}`);
